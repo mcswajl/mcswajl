@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Relative Paths</title>
+
+    <!-- This is an absolute path and will not work-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style.css"
+    />
+
+    <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+
+    <!-- TODO: Link the three `style.css` files found in the `public` directory -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Student Bio</h1>
+    </header>
+
+    <div class="container">
+      <section id="main-bio">
+        <h2>JoshMcSwain</h2>
+
+        <img
+          id="bio-image"
+          src="josh.jpg"
+          alt="JoshMcSwain"
+        />
+
+        <p>
+          I graduated from UNCC in 2001 with a Bachelor of Science degree in Geography and Earth Science. I work for an Engineering firm for 2 years before moving over to current place of employment, Mecklenburg County. I have been with Mecklenburg County for 19 years, and my primary responsibility is managing the Flood Information and Notification System (FINS).
+          <a href="http://www.lipsum.com/">www.lipsum.com</a>
+        </p>
+      </section>
+
+      <section id="contact-info">
+        <h2>Contact Info</h2>
+        <ul>
+          <li><strong>Email:</strong> <a href="#">joshua.mcswain@mecknc.gov</a></li>
+          <li><strong>Github:</strong> <a href="#">JoshMcSwain</a></li>
+          <li><strong>Portfolio:</strong> <a href="#">coming soon, Maybe</a></li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
