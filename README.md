@@ -1,6 +1,15 @@
 ### Hi there 👋
-### 💬 Ask me about ...
+### 💬 Ask me about FINS
+Charlotte-Mecklenburg Storm Water Services, Flood Information and Notification System (FINS)
+Contrail.mecknc.gov
+
 ### 📫 How to reach me: ...
+Josh McSwain 
+Senior Business Analyst
+Charlotte-Mecklenburg Storm Water Services 
+Mecklenburg County | 2145 Suttle Avenue | Charlotte, NC 28208 
+(704) 517-3644  | Joshua.McSwain@MeckNC.gov  | StormWater.CharMeck.org 
+
 
 <!--
 **mcswajl/mcswajl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
